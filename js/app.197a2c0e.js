@@ -75,12 +75,12 @@
                 return n("div", {attrs: {id: "app"}}, [n("div", {staticClass: "header_div"}, [n("div", {staticClass: "header_left"}, [e._v("BinaryX")]), e.address ? e._e() : n("div", {
                     staticClass: "header_right",
                     on: {click: e.connent}
-                }, [e._v("连接钱包")]), e.address ? n("div", {staticClass: "header_right"}, [e._v(e._s(e.getAddress))]) : e._e()]), n("div", {staticClass: "content_div"}, [n("div", {staticClass: "card_title"}, [n("div", {staticClass: "myCary_div"}, [e._v("\n\t\t\t\t我的卡片\n\t\t\t\t"), e.getMyHeroL.length > 0 ? n("div", [e._v("当前卡片数量（" + e._s(e.getMyHeroL.length) + "）")]) : e._e()]), n("div", {staticStyle: {"font-size": "15px"}}, [e._v("")])]), n("el-card", {
+                }, [e._v("連接錢包")]), e.address ? n("div", {staticClass: "header_right"}, [e._v(e._s(e.getAddress))]) : e._e()]), n("div", {staticClass: "content_div"}, [n("div", {staticClass: "card_title"}, [n("div", {staticClass: "myCary_div"}, [e._v("\n\t\t\t\t我的卡片\n\t\t\t\t"), e.getMyHeroL.length > 0 ? n("div", [e._v("当前卡片数量（" + e._s(e.getMyHeroL.length) + "）")]) : e._e()]), n("div", {staticStyle: {"font-size": "15px"}}, [e._v("")])]), n("el-card", {
                     staticClass: "box-card",
                     staticStyle: {"margin-bottom": "20px"}
                 }, [n("div", [n("el-form", {attrs: {"label-width": "90px"}}, [n("div", {staticStyle: {display: "flex"}}, [n("el-form-item", {
                     class: "workType_divc",
-                    attrs: {label: "转账的钱包"}
+                    attrs: {label: "轉帳的錢包"}
                 }, [n("el-input", {
                     model: {
                         value: e.toAddress, callback: function (t) {
@@ -89,9 +89,9 @@
                     }
                 })], 1), n("el-form-item", {
                     class: "workType_divc",
-                    attrs: {label: "是否高级"}
+                    attrs: {label: "是否高級"}
                 }, [n("el-select", {
-                    attrs: {placeholder: "请选择"}, model: {
+                    attrs: {placeholder: "請選擇"}, model: {
                         value: e.workType3, callback: function (t) {
                             e.workType3 = t
                         }, expression: "workType3"
@@ -105,7 +105,7 @@
                 })], 1)], 1), n("el-form-item", [n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit}
-                }, [e._v("确认转移")]), n("el-button", {
+                }, [e._v("確認轉移")]), n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit6}
                 }, [e._v("打零工")]), n("el-button", {
@@ -117,13 +117,13 @@
                 }, [e._v("刷新")]), n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit9}
-                }, [e._v("单次招募")]), n("el-button", {
+                }, [e._v("單次招募")]), n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit333}
-                }, [e._v("导出xlsx")]), n("el-button", {
+                }, [e._v("導出xlsx")]), n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit11}
-                }, [e._v("打印勾选")])], 1)], 1)])], 1)]), n("el-card", {staticClass: "box-card"}, [n("el-table", {
+                }, [e._v("打印勾選")])], 1)], 1)])], 1)]), n("el-card", {staticClass: "box-card"}, [n("el-table", {
                     directives: [{
                         name: "loading",
                         rawName: "v-loading",
@@ -147,27 +147,27 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {label: "类型"}, scopedSlots: e._u([{
+                    attrs: {label: "類型"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["角色类型"]))]
+                            return [e._v(e._s(t.row["角色類型"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {label: "力量"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["力量"]))]
+                            return [e._v(e._s(t.row["屬性"]["力量"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {label: "敏捷"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["敏捷"]))]
+                            return [e._v(e._s(t.row["屬性"]["敏捷"]))]
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {label: "体质"}, scopedSlots: e._u([{
+                    attrs: {label: "體質"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["体质"]))]
+                            return [e._v(e._s(t.row["屬性"]["體質"]))]
                         }
                     }])
                 }), n("el-table-column", {
@@ -179,30 +179,30 @@
                 }), n("el-table-column", {
                     attrs: {label: "智力"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["智力"]))]
+                            return [e._v(e._s(t.row["屬性"]["智力"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {label: "精神"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["精神"]))]
+                            return [e._v(e._s(t.row["屬性"]["精神"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {label: "等级"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["等级"]))]
+                            return [e._v(e._s(t.row["屬性"]["等级"]))]
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "总属性"},
+                    attrs: {align: "center", label: "總屬性"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
                             return [e._v(e._s(t.row.sumAttr || 0))]
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "是否升级高级工作"},
+                    attrs: {align: "center", label: "是否升級高級工作"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
                             return ["否" == t.row.isWork ? n("div", [e._v(e._s(t.row.isWork))]) : e._e(), "是" == t.row.isWork ? n("div", {staticStyle: {color: "red"}}, [e._v(e._s(t.row.isWork))]) : e._e()]
@@ -225,9 +225,9 @@
                     }
                 })], 1), n("el-form-item", {
                     class: "workType_divc",
-                    attrs: {label: "工作类型"}
+                    attrs: {label: "工作類型"}
                 }, [n("el-select", {
-                    attrs: {placeholder: "请选择"}, model: {
+                    attrs: {placeholder: "請選擇"}, model: {
                         value: e.workType2, callback: function (t) {
                             e.workType2 = t
                         }, expression: "workType2"
@@ -236,11 +236,11 @@
                     key: "零工",
                     attrs: {label: "零工", value: "零工"}
                 }), n("el-option", {key: "伐木", attrs: {label: "伐木", value: "伐木"}}), n("el-option", {
-                    key: "酿酒",
-                    attrs: {label: "酿酒", value: "酿酒"}
+                    key: "釀酒",
+                    attrs: {label: "釀酒", value: "釀酒"}
                 }), n("el-option", {key: "卷轴", attrs: {label: "卷轴", value: "卷轴"}}), n("el-option", {
-                    key: "打猎",
-                    attrs: {label: "打猎", value: "打猎"}
+                    key: "打獵",
+                    attrs: {label: "打獵", value: "打獵"}
                 })], 1)], 1), n("el-form-item", [n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit2}
@@ -253,10 +253,10 @@
                 }, [e._v("刷新")]), n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit33}
-                }, [e._v("导出xlsx")]), n("el-button", {
+                }, [e._v("導出xlsx")]), n("el-button", {
                     attrs: {type: "primary"},
                     on: {click: e.onSubmit22}
-                }, [e._v("打印勾选")])], 1)], 1)])], 1)]), n("el-card", {staticClass: "box-card"}, [n("el-table", {
+                }, [e._v("打印勾選")])], 1)], 1)])], 1)]), n("el-card", {staticClass: "box-card"}, [n("el-table", {
                     directives: [{
                         name: "loading",
                         rawName: "v-loading",
@@ -301,42 +301,42 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "体质"},
+                    attrs: {align: "center", label: "體質"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["体质"]))]
+                            return [e._v(e._s(t.row["屬性"]["體質"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {align: "center", label: "意志"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["意志"]))]
+                            return [e._v(e._s(t.row["屬性"]["意志"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {align: "center", label: "智力"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["智力"]))]
+                            return [e._v(e._s(t.row["屬性"]["智力"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {align: "center", label: "精神"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["精神"]))]
+                            return [e._v(e._s(t.row["屬性"]["精神"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {align: "center", label: "等级"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["等级"]))]
+                            return [e._v(e._s(t.row["屬性"]["等级"]))]
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "总属性"},
+                    attrs: {align: "center", label: "總屬性"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
                             return [e._v(e._s(t.row.sumAttr || 0))]
@@ -350,17 +350,17 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "是否能参与高级工作"},
+                    attrs: {align: "center", label: "是否能高级工作"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
                             return ["否" == t.row.isWork ? n("div", [e._v(e._s(t.row.isWork))]) : e._e(), "是" == t.row.isWork ? n("div", {staticStyle: {color: "red"}}, [e._v(e._s(t.row.isWork))]) : e._e()]
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "当前收益"},
+                    attrs: {align: "center", label: "當前收益"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["当前收益"]))]
+                            return [e._v(e._s(t.row["當前收益"]))]
                         }
                     }])
                 })], 1)], 1)], 1)], 1)])
@@ -416,7 +416,7 @@
                     }, getWorkHeroL: function () {
                         var e = this, t = this.income || 0, n = [];
                         return this.workHero.forEach((function (a) {
-                            parseFloat(a["当前收益"]) >= parseFloat(t) && ("全部" == e.workType2 || a.workType == e.workType2) && n.push(a)
+                            parseFloat(a["目前收益"]) >= parseFloat(t) && ("全部" == e.workType2 || a.workType == e.workType2) && n.push(a)
                         })), n
                     }, getMyHeroL: function () {
                         var e = this, t = [];
