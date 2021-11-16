@@ -122,7 +122,7 @@
 					staticStyle: {
 						"font-size": "15px"
 					}
-				}, [e._v("您要願意的話請支援下小弟 0x5532e6916B22bdfc9d91cE9aE958efCc741d811A")])]), n("el-card", {
+				}, [e._v("")])]), n("el-card", {
 					staticClass: "box-card",
 					staticStyle: {
 						"margin-bottom": "20px"
