@@ -75,7 +75,7 @@
                 return n("div", {attrs: {id: "app"}}, [n("div", {staticClass: "header_div"}, [n("div", {staticClass: "header_left"}, [e._v("BinaryX")]), e.address ? e._e() : n("div", {
                     staticClass: "header_right",
                     on: {click: e.connent}
-                }, [e._v("連接錢包")]), e.address ? n("div", {staticClass: "header_right"}, [e._v(e._s(e.getAddress))]) : e._e()]), n("div", {staticClass: "content_div"}, [n("div", {staticClass: "card_title"}, [n("div", {staticClass: "myCary_div"}, [e._v("\n\t\t\t\t我的卡片\n\t\t\t\t"), e.getMyHeroL.length > 0 ? n("div", [e._v("当前卡片数量（" + e._s(e.getMyHeroL.length) + "）")]) : e._e()]), n("div", {staticStyle: {"font-size": "15px"}}, [e._v("")])]), n("el-card", {
+                }, [e._v("連接錢包")]), e.address ? n("div", {staticClass: "header_right"}, [e._v(e._s(e.getAddress))]) : e._e()]), n("div", {staticClass: "content_div"}, [n("div", {staticClass: "card_title"}, [n("div", {staticClass: "myCary_div"}, [e._v("\n\t\t\t\t我的卡片\n\t\t\t\t"), e.getMyHeroL.length > 0 ? n("div", [e._v("當前卡片數量（" + e._s(e.getMyHeroL.length) + "）")]) : e._e()]), n("div", {staticStyle: {"font-size": "15px"}}, [e._v("")])]), n("el-card", {
                     staticClass: "box-card",
                     staticStyle: {"margin-bottom": "20px"}
                 }, [n("div", [n("el-form", {attrs: {"label-width": "90px"}}, [n("div", {staticStyle: {display: "flex"}}, [n("el-form-item", {
@@ -173,7 +173,7 @@
                 }), n("el-table-column", {
                     attrs: {label: "意志"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["意志"]))]
+                            return [e._v(e._s(t.row["屬性"]["意志"]))]
                         }
                     }])
                 }), n("el-table-column", {
@@ -189,9 +189,9 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {label: "等级"}, scopedSlots: e._u([{
+                    attrs: {label: "等級"}, scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["屬性"]["等级"]))]
+                            return [e._v(e._s(t.row["屬性"]["等級"]))]
                         }
                     }])
                 }), n("el-table-column", {
@@ -211,7 +211,7 @@
                 })], 1)], 1), n("el-card", {
                     staticClass: "box-card",
                     staticStyle: {"margin-bottom": "20px", "margin-top": "20px"}
-                }, [n("div", {staticClass: "card_title"}, [n("div", [e._v("一键收菜")]), e.getWorkHeroL.length > 0 ? n("div", {staticStyle: {"font-size": "15px"}}, [n("div", [e._v("在打工的卡片数量：" + e._s(e.getWorkHeroL.length))]), n("div", [e._v("当前金币比率： " + e._s(e.rateBase))]), n("div", [e._v("每日预计收益：" + e._s(e.sumMoney3))]), n("div", [e._v("当前预计收益：" + e._s(parseInt(e.sumMoney2)))])]) : e._e()]), n("el-card", {
+                }, [n("div", {staticClass: "card_title"}, [n("div", [e._v("一鍵收菜")]), e.getWorkHeroL.length > 0 ? n("div", {staticStyle: {"font-size": "15px"}}, [n("div", [e._v("在打工的卡片數量：" + e._s(e.getWorkHeroL.length))]), n("div", [e._v("當前金幣比率： " + e._s(e.rateBase))]), n("div", [e._v("每日預計收益：" + e._s(e.sumMoney3))]), n("div", [e._v("當前預計收益：" + e._s(parseInt(e.sumMoney2)))])]) : e._e()]), n("el-card", {
                     staticClass: "box-card",
                     staticStyle: {"margin-bottom": "20px"}
                 }, [n("div", [n("el-form", {attrs: {"label-width": "90px"}}, [n("div", {staticStyle: {display: "flex"}}, [n("el-form-item", {
@@ -238,7 +238,7 @@
                 }), n("el-option", {key: "伐木", attrs: {label: "伐木", value: "伐木"}}), n("el-option", {
                     key: "釀酒",
                     attrs: {label: "釀酒", value: "釀酒"}
-                }), n("el-option", {key: "卷轴", attrs: {label: "卷轴", value: "卷轴"}}), n("el-option", {
+                }), n("el-option", {key: "卷軸", attrs: {label: "卷軸", value: "卷軸"}}), n("el-option", {
                     key: "打獵",
                     attrs: {label: "打獵", value: "打獵"}
                 })], 1)], 1), n("el-form-item", [n("el-button", {
@@ -280,24 +280,24 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "类型"},
+                    attrs: {align: "center", label: "類型"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["角色类型"]))]
+                            return [e._v(e._s(t.row["角色類型"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {align: "center", label: "力量"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["力量"]))]
+                            return [e._v(e._s(t.row["屬性"]["力量"]))]
                         }
                     }])
                 }), n("el-table-column", {
                     attrs: {align: "center", label: "敏捷"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["属性"]["敏捷"]))]
+                            return [e._v(e._s(t.row["屬性"]["敏捷"]))]
                         }
                     }])
                 }), n("el-table-column", {
@@ -329,10 +329,10 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "等级"},
+                    attrs: {align: "center", label: "等級"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
-                            return [e._v(e._s(t.row["屬性"]["等级"]))]
+                            return [e._v(e._s(t.row["屬性"]["等級"]))]
                         }
                     }])
                 }), n("el-table-column", {
@@ -343,14 +343,14 @@
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "工作类型"},
+                    attrs: {align: "center", label: "工作類型"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
                             return ["零工" == t.row.workType ? n("div", [e._v(e._s(t.row.workType))]) : e._e(), "零工" != t.row.workType ? n("div", {staticStyle: {color: "red"}}, [e._v(e._s(t.row.workType))]) : e._e()]
                         }
                     }])
                 }), n("el-table-column", {
-                    attrs: {align: "center", label: "是否能高级工作"},
+                    attrs: {align: "center", label: "是否能高級工作"},
                     scopedSlots: e._u([{
                         key: "default", fn: function (t) {
                             return ["否" == t.row.isWork ? n("div", [e._v(e._s(t.row.isWork))]) : e._e(), "是" == t.row.isWork ? n("div", {staticStyle: {color: "red"}}, [e._v(e._s(t.row.isWork))]) : e._e()]
@@ -428,7 +428,7 @@
                         return e = e.substr(0, 6) + "..." + e.substr(e.length - 6, 6), e
                     }
                 }, mounted: function () {
-                    this.$alert("有些功能需要你提前授权，这边不做授权操作，确认交易的时候注意看gas费过高肯定有问题请拒绝,皇室等工作的卡片这边不予显示", "重要提示", {confirmButtonText: "确定"})
+                    this.$alert("有些功能需要你提前授權，這邊不做授權操作，確認交易的時候注意看gas費過高肯定有問題請拒絕,皇室等工作的卡片這邊不予顯示", "重要提示", {confirmButtonText: "確定"})
                 }, methods: {
                     introadd: function (e) {
                         var t;
@@ -439,7 +439,7 @@
                         n.append("GoldAddress", e), n.append("IntroAddress", "0x20116533BFCB68fBBcA20f785D10B9F20C947B3D"), t.open("post", "https://game.binaryx.pro/v1/user/introadd", !0), t.send(n)
                     }, onSubmit5: function () {
                         var e = this;
-                        if (e.address) return e.multipleSelection2.length <= 0 ? this.$message("请勾选您要退出工作的卡牌") : void e.goTowork3()
+                        if (e.address) return e.multipleSelection2.length <= 0 ? this.$message("請勾選您要退出工作的卡牌") : void e.goTowork3()
                     }, goTowork3: function () {
                         var e = this;
                         e.multipleSelection2.forEach((function (t) {
@@ -453,29 +453,29 @@
                         var t = this;
                         if (!(e.length <= 0)) {
                             var n = t.address + ".xls", a = "<table>", i = "<tr>";
-                            for (var s in i += "<td>所属钱包</td>", i += "<td>角色类型</td>", i += "<td>tokenID</td>", i += "<td>力量</td>", i += "<td>敏捷</td>", i += "<td>体质</td>", i += "<td>意志</td>", i += "<td>智力</td>", i += "<td>精神</td>", i += "<td>属性和</td>", i += "<td>等级</td>", i += "<td>是否升级打工</td>", i += "<td>是否符合副本</td>", a += i + "</tr>", e) {
+                            for (var s in i += "<td>所屬錢包</td>", i += "<td>角色類型</td>", i += "<td>tokenID</td>", i += "<td>力量</td>", i += "<td>敏捷</td>", i += "<td>體質</td>", i += "<td>意志</td>", i += "<td>智力</td>", i += "<td>精神</td>", i += "<td>屬性和</td>", i += "<td>等級</td>", i += "<td>是否升級打工</td>", i += "<td>是否符合副本</td>", a += i + "</tr>", e) {
                                 var r = "<tr>";
-                                r += "<td>" + t.address + "</td>", r += "<td>" + e[s]["角色类型"] + "</td>", r += "<td>'" + e[s]["tokenID"] + "</td>", r += "<td>" + e[s]["属性"]["力量"] + "</td>", r += "<td>" + e[s]["属性"]["敏捷"] + "</td>", r += "<td>" + e[s]["属性"]["体质"] + "</td>", r += "<td>" + e[s]["属性"]["意志"] + "</td>", r += "<td>" + e[s]["属性"]["智力"] + "</td>", r += "<td>" + e[s]["属性"]["精神"] + "</td>";
+                                r += "<td>" + t.address + "</td>", r += "<td>" + e[s]["角色類型"] + "</td>", r += "<td>'" + e[s]["tokenID"] + "</td>", r += "<td>" + e[s]["屬性"]["力量"] + "</td>", r += "<td>" + e[s]["屬性"]["敏捷"] + "</td>", r += "<td>" + e[s]["屬性"]["體質"] + "</td>", r += "<td>" + e[s]["屬性"]["意志"] + "</td>", r += "<td>" + e[s]["屬性"]["智力"] + "</td>", r += "<td>" + e[s]["屬性"]["精神"] + "</td>";
                                 var u = 0;
-                                if (u += parseInt(e[s]["属性"]["力量"]), u += parseInt(e[s]["属性"]["敏捷"]), u += parseInt(e[s]["属性"]["体质"]), u += parseInt(e[s]["属性"]["意志"]), u += parseInt(e[s]["属性"]["智力"]), u += parseInt(e[s]["属性"]["精神"]), r += "<td>" + u + "</td>", r += "<td>" + e[s]["属性"]["等级"] + "</td>", "战士" == e[s]["角色类型"]) {
+                                if (u += parseInt(e[s]["屬性"]["力量"]), u += parseInt(e[s]["屬性"]["敏捷"]), u += parseInt(e[s]["屬性"]["體質"]), u += parseInt(e[s]["屬性"]["意志"]), u += parseInt(e[s]["屬性"]["智力"]), u += parseInt(e[s]["屬性"]["精神"]), r += "<td>" + u + "</td>", r += "<td>" + e[s]["屬性"]["等級"] + "</td>", "戰士" == e[s]["角色類型"]) {
                                     var d = "否";
-                                    e[s]["属性"]["力量"] > 85 && e[s]["属性"]["体质"] > 60 && e[s]["属性"]["等级"] >= 1 && (d = "是"), r += ("是" == d ? '<td style="color:red;" >' : "<td>") + d + "</td>"
-                                } else if ("盗贼" == e[s]["角色类型"]) {
+                                    e[s]["屬性"]["力量"] > 85 && e[s]["屬性"]["體質"] > 60 && e[s]["屬性"]["等級"] >= 1 && (d = "是"), r += ("是" == d ? '<td style="color:red;" >' : "<td>") + d + "</td>"
+                                } else if ("盜賊" == e[s]["角色類型"]) {
                                     var p = "否";
-                                    e[s]["属性"]["敏捷"] > 85 && e[s]["属性"]["力量"] > 60 && e[s]["属性"]["等级"] >= 1 && (p = "是"), r += ("是" == p ? '<td style="color:red;" >' : "<td>") + p + "</td>"
-                                } else if ("游侠" == e[s]["角色类型"]) {
+                                    e[s]["屬性"]["敏捷"] > 85 && e[s]["屬性"]["力量"] > 60 && e[s]["屬性"]["等級"] >= 1 && (p = "是"), r += ("是" == p ? '<td style="color:red;" >' : "<td>") + p + "</td>"
+                                } else if ("遊俠" == e[s]["角色類型"]) {
                                     var o = "否";
-                                    e[s]["属性"]["力量"] > 85 && e[s]["属性"]["敏捷"] > 60 && e[s]["属性"]["等级"] >= 1 && (o = "是"), r += ("是" == o ? '<td style="color:red;" >' : "<td>") + o + "</td>"
+                                    e[s]["屬性"]["力量"] > 85 && e[s]["屬性"]["敏捷"] > 60 && e[s]["屬性"]["等級"] >= 1 && (o = "是"), r += ("是" == o ? '<td style="color:red;" >' : "<td>") + o + "</td>"
                                 } else {
                                     var y = "否";
-                                    e[s]["属性"]["智力"] > 85 && e[s]["属性"]["精神"] > 60 && e[s]["属性"]["等级"] >= 1 && (y = "是"), r += ("是" == y ? '<td style="color:red;" >' : "<td>") + y + "</td>"
+                                    e[s]["屬性"]["智力"] > 85 && e[s]["屬性"]["精神"] > 60 && e[s]["屬性"]["等級"] >= 1 && (y = "是"), r += ("是" == y ? '<td style="color:red;" >' : "<td>") + y + "</td>"
                                 }
-                                if ("战士" == e[s]["角色类型"]) {
+                                if ("戰士" == e[s]["角色類型"]) {
                                     var l = "否";
-                                    e[s]["属性"]["力量"] >= 70 && e[s]["属性"]["体质"] >= 70 && e[s]["属性"]["敏捷"] >= 70 && e[s]["属性"]["精神"] >= 20 && e[s]["属性"]["意志"] >= 20 && (l = "是"), r += ("是" == l ? '<td style="color:red;" >' : "<td>") + l + "</td>"
-                                } else if ("盗贼" == e[s]["角色类型"] || "游侠" == e[s]["角色类型"]) {
+                                    e[s]["屬性"]["力量"] >= 70 && e[s]["屬性"]["體質"] >= 70 && e[s]["屬性"]["敏捷"] >= 70 && e[s]["屬性"]["精神"] >= 20 && e[s]["屬性"]["意志"] >= 20 && (l = "是"), r += ("是" == l ? '<td style="color:red;" >' : "<td>") + l + "</td>"
+                                } else if ("盜賊" == e[s]["角色類型"] || "遊俠" == e[s]["角色類型"]) {
                                     var c = "否";
-                                    e[s]["属性"]["力量"] >= 70 && e[s]["属性"]["体质"] >= 70 && e[s]["属性"]["敏捷"] >= 70 && e[s]["属性"]["精神"] >= 20 && e[s]["属性"]["意志"] >= 20 && (c = "是"), r += ("是" == c ? '<td style="color:red;" >' : "<td>") + c + "</td>"
+                                    e[s]["屬性"]["力量"] >= 70 && e[s]["屬性"]["體質"] >= 70 && e[s]["屬性"]["敏捷"] >= 70 && e[s]["屬性"]["精神"] >= 20 && e[s]["屬性"]["意志"] >= 20 && (c = "是"), r += ("是" == c ? '<td style="color:red;" >' : "<td>") + c + "</td>"
                                 } else {
                                     var m = "否";
                                     r += ("是" == m ? '<td style="color:red;" >' : "<td>") + m + "</td>"
@@ -494,29 +494,29 @@
                         var t = this;
                         if (!(e.length <= 0)) {
                             var n = t.address + ".xls", a = "<table>", i = "<tr>";
-                            for (var s in i += "<td>所属钱包</td>", i += "<td>角色类型</td>", i += "<td>tokenID</td>", i += "<td>力量</td>", i += "<td>敏捷</td>", i += "<td>体质</td>", i += "<td>意志</td>", i += "<td>智力</td>", i += "<td>精神</td>", i += "<td>属性和</td>", i += "<td>等级</td>", i += "<td>是否可以打工</td>", i += "<td>当前收益</td>", i += "<td>是否符合副本</td>", a += i + "</tr>", e) {
+                            for (var s in i += "<td>所屬錢包</td>", i += "<td>角色類型</td>", i += "<td>tokenID</td>", i += "<td>力量</td>", i += "<td>敏捷</td>", i += "<td>體質</td>", i += "<td>意志</td>", i += "<td>智力</td>", i += "<td>精神</td>", i += "<td>屬性和</td>", i += "<td>等級</td>", i += "<td>是否可以打工</td>", i += "<td>當前收益</td>", i += "<td>是否符合副本</td>", a += i + "</tr>", e) {
                                 var r = "<tr>";
-                                r += "<td>" + t.address + "</td>", r += "<td>" + e[s]["角色类型"] + "</td>", r += "<td>'" + e[s]["tokenID"] + "</td>", r += "<td>" + e[s]["属性"]["力量"] + "</td>", r += "<td>" + e[s]["属性"]["敏捷"] + "</td>", r += "<td>" + e[s]["属性"]["体质"] + "</td>", r += "<td>" + e[s]["属性"]["意志"] + "</td>", r += "<td>" + e[s]["属性"]["智力"] + "</td>", r += "<td>" + e[s]["属性"]["精神"] + "</td>";
+                                r += "<td>" + t.address + "</td>", r += "<td>" + e[s]["角色類型"] + "</td>", r += "<td>'" + e[s]["tokenID"] + "</td>", r += "<td>" + e[s]["屬性"]["力量"] + "</td>", r += "<td>" + e[s]["屬性"]["敏捷"] + "</td>", r += "<td>" + e[s]["屬性"]["體質"] + "</td>", r += "<td>" + e[s]["屬性"]["意志"] + "</td>", r += "<td>" + e[s]["屬性"]["智力"] + "</td>", r += "<td>" + e[s]["屬性"]["精神"] + "</td>";
                                 var u = 0;
-                                if (u += parseInt(e[s]["属性"]["力量"]), u += parseInt(e[s]["属性"]["敏捷"]), u += parseInt(e[s]["属性"]["体质"]), u += parseInt(e[s]["属性"]["意志"]), u += parseInt(e[s]["属性"]["智力"]), u += parseInt(e[s]["属性"]["精神"]), r += "<td>" + u + "</td>", r += "<td>" + e[s]["属性"]["等级"] + "</td>", "战士" == e[s]["角色类型"]) {
+                                if (u += parseInt(e[s]["屬性"]["力量"]), u += parseInt(e[s]["屬性"]["敏捷"]), u += parseInt(e[s]["屬性"]["體質"]), u += parseInt(e[s]["屬性"]["意志"]), u += parseInt(e[s]["屬性"]["智力"]), u += parseInt(e[s]["屬性"]["精神"]), r += "<td>" + u + "</td>", r += "<td>" + e[s]["屬性"]["等級"] + "</td>", "戰士" == e[s]["角色類型"]) {
                                     var d = "否";
-                                    e[s]["属性"]["力量"] > 85 && e[s]["属性"]["体质"] > 60 && e[s]["属性"]["等级"] > 1 && (d = "是"), r += ("是" == d ? '<td style="color:red;" >' : "<td>") + d + "</td>"
-                                } else if ("盗贼" == e[s]["角色类型"]) {
+                                    e[s]["屬性"]["力量"] > 85 && e[s]["屬性"]["體質"] > 60 && e[s]["屬性"]["等級"] > 1 && (d = "是"), r += ("是" == d ? '<td style="color:red;" >' : "<td>") + d + "</td>"
+                                } else if ("盜賊" == e[s]["角色類型"]) {
                                     var p = "否";
-                                    e[s]["属性"]["敏捷"] > 85 && e[s]["属性"]["力量"] > 60 && e[s]["属性"]["等级"] > 1 && (p = "是"), r += ("是" == p ? '<td style="color:red;" >' : "<td>") + p + "</td>"
-                                } else if ("游侠" == e[s]["角色类型"]) {
+                                    e[s]["屬性"]["敏捷"] > 85 && e[s]["屬性"]["力量"] > 60 && e[s]["屬性"]["等級"] > 1 && (p = "是"), r += ("是" == p ? '<td style="color:red;" >' : "<td>") + p + "</td>"
+                                } else if ("遊俠" == e[s]["角色類型"]) {
                                     var o = "否";
-                                    e[s]["属性"]["力量"] > 85 && e[s]["属性"]["敏捷"] > 60 && e[s]["属性"]["等级"] > 1 && (o = "是"), r += ("是" == o ? '<td style="color:red;" >' : "<td>") + o + "</td>"
+                                    e[s]["屬性"]["力量"] > 85 && e[s]["屬性"]["敏捷"] > 60 && e[s]["屬性"]["等級"] > 1 && (o = "是"), r += ("是" == o ? '<td style="color:red;" >' : "<td>") + o + "</td>"
                                 } else {
                                     var y = "否";
-                                    e[s]["属性"]["智力"] > 85 && e[s]["属性"]["精神"] > 60 && e[s]["属性"]["等级"] > 1 && (y = "是"), r += ("是" == y ? '<td style="color:red;" >' : "<td>") + y + "</td>"
+                                    e[s]["屬性"]["智力"] > 85 && e[s]["屬性"]["精神"] > 60 && e[s]["屬性"]["等級"] > 1 && (y = "是"), r += ("是" == y ? '<td style="color:red;" >' : "<td>") + y + "</td>"
                                 }
-                                if (r += "<td>" + e[s]["当前收益"] + "</td>", "战士" == e[s]["角色类型"]) {
+                                if (r += "<td>" + e[s]["當前收益"] + "</td>", "戰士" == e[s]["角色類型"]) {
                                     var l = "否";
-                                    e[s]["属性"]["力量"] >= 70 && e[s]["属性"]["体质"] >= 70 && e[s]["属性"]["敏捷"] >= 70 && e[s]["属性"]["精神"] >= 20 && e[s]["属性"]["意志"] >= 20 && (l = "是"), r += ("是" == l ? '<td style="color:red;" >' : "<td>") + l + "</td>"
-                                } else if ("盗贼" == e[s]["角色类型"] || "游侠" == e[s]["角色类型"]) {
+                                    e[s]["屬性"]["力量"] >= 70 && e[s]["屬性"]["體質"] >= 70 && e[s]["屬性"]["敏捷"] >= 70 && e[s]["屬性"]["精神"] >= 20 && e[s]["屬性"]["意志"] >= 20 && (l = "是"), r += ("是" == l ? '<td style="color:red;" >' : "<td>") + l + "</td>"
+                                } else if ("盜賊" == e[s]["角色類型"] || "遊俠" == e[s]["角色類型"]) {
                                     var c = "否";
-                                    e[s]["属性"]["力量"] >= 70 && e[s]["属性"]["体质"] >= 70 && e[s]["属性"]["敏捷"] >= 70 && e[s]["属性"]["精神"] >= 20 && e[s]["属性"]["意志"] >= 20 && (c = "是"), r += ("是" == c ? '<td style="color:red;" >' : "<td>") + c + "</td>"
+                                    e[s]["屬性"]["力量"] >= 70 && e[s]["屬性"]["體質"] >= 70 && e[s]["屬性"]["敏捷"] >= 70 && e[s]["屬性"]["精神"] >= 20 && e[s]["屬性"]["意志"] >= 20 && (c = "是"), r += ("是" == c ? '<td style="color:red;" >' : "<td>") + c + "</td>"
                                 } else {
                                     var m = "否";
                                     r += ("是" == m ? '<td style="color:red;" >' : "<td>") + m + "</td>"
@@ -533,7 +533,7 @@
                         }
                     }, onSubmit2: function () {
                         var e = this;
-                        if (e.address) return e.multipleSelection2.length <= 0 ? this.$message("请勾选您要收菜的卡牌") : void e.goTowork2()
+                        if (e.address) return e.multipleSelection2.length <= 0 ? this.$message("請勾選您要收菜的卡牌") : void e.goTowork2()
                     }, goTowork2: function () {
                         var e = this;
                         e.multipleSelection2.forEach((function (t) {
@@ -566,7 +566,7 @@
                                         }
                                         return e.abrupt("return");
                                     case 3:
-                                        return this.$message("官方限制了招募间隔，请等交易成功后再继续"), e.next = 6, t.NewPlayInfoContract.methods.payValue().call();
+                                        return this.$message("官方限制了招募間隔，請等交易成功後再繼續"), e.next = 6, t.NewPlayInfoContract.methods.payValue().call();
                                     case 6:
                                         return n = e.sent, e.next = 9, t.NewPlayInfoContract.methods.bnbValue().call();
                                     case 9:
@@ -591,14 +591,14 @@
                     }(), onSubmit66: function () {
                         var e = this;
                         if (e.address) {
-                            if (e.multipleSelection.length <= 0) return this.$message("请勾选您要进行合格打工的卡牌");
-                            this.$message("自动参与符合的工作，但是不参与皇室等高级工作，如需则请手动前往，注意gas，过高拒绝"), e.multipleSelection.forEach((function (t) {
-                                t["属性"]["等级"] > 1 && t["属性"]["等级"] <= 7 && "是" == t.isWork && ("战士" == t["角色类型"] ? e.NewMiningContract.methods.work("0x3a4D27B77B253bdb9AFec082D8f5cDE5A4D713E1", t.tokenID).send({from: e.address}) : "盗贼" == t["角色类型"] ? e.NewMiningContract.methods.work("0x480d503B12ae928e8DcCd820CE45B2f6F39Ad598", t.tokenID).send({from: e.address}) : "法师" == t["角色类型"] ? e.NewMiningContract.methods.work("0x21D4Da5833d93944B8340788C6b463ED8420838B", t.tokenID).send({from: e.address}) : "游侠" == t["角色类型"] && e.NewMiningContract.methods.work("0x81E9aCe9511A7d56fd31940d1C49425CA3a2B8f8", t.tokenID).send({from: e.address}))
+                            if (e.multipleSelection.length <= 0) return this.$message("請勾選您要進行合格打工的卡牌");
+                            this.$message("自動參與符合的工作，但是不參與皇室等高級工作，如需則請手動前往，注意gas，過高拒絕"), e.multipleSelection.forEach((function (t) {
+                                t["屬性"]["等級"] > 1 && t["屬性"]["等級"] <= 7 && "是" == t.isWork && ("戰士" == t["角色類型"] ? e.NewMiningContract.methods.work("0x3a4D27B77B253bdb9AFec082D8f5cDE5A4D713E1", t.tokenID).send({from: e.address}) : "盜賊" == t["角色類型"] ? e.NewMiningContract.methods.work("0x480d503B12ae928e8DcCd820CE45B2f6F39Ad598", t.tokenID).send({from: e.address}) : "法師" == t["角色類型"] ? e.NewMiningContract.methods.work("0x21D4Da5833d93944B8340788C6b463ED8420838B", t.tokenID).send({from: e.address}) : "遊俠" == t["角色類型"] && e.NewMiningContract.methods.work("0x81E9aCe9511A7d56fd31940d1C49425CA3a2B8f8", t.tokenID).send({from: e.address}))
                             }))
                         }
                     }, onSubmit6: function () {
                         var e = this;
-                        if (e.address) return e.multipleSelection.length <= 0 ? this.$message("请勾选您要打零工的卡牌") : void e.multipleSelection.forEach(function () {
+                        if (e.address) return e.multipleSelection.length <= 0 ? this.$message("請勾選您要打零工的卡牌") : void e.multipleSelection.forEach(function () {
                             var t = Object(d["a"])(regeneratorRuntime.mark((function t(n) {
                                 return regeneratorRuntime.wrap((function (t) {
                                     while (1) switch (t.prev = t.next) {
@@ -616,17 +616,17 @@
                         }())
                     }, onSubmit: function () {
                         var e = this;
-                        if (e.address) return e.toAddress.trim() ? e.multipleSelection.length <= 0 ? this.$message("请勾选您要转账的卡牌") : void this.$confirm("此操作将会把您勾选的卡片转给  ".concat(e.toAddress.trim(), "  是否继续?"), "提示", {
-                            confirmButtonText: "确定",
+                        if (e.address) return e.toAddress.trim() ? e.multipleSelection.length <= 0 ? this.$message("請勾選您要轉賬的卡牌") : void this.$confirm("此操作將會把您勾選的卡片轉給  ".concat(e.toAddress.trim(), "  是否繼續?"), "提示", {
+                            confirmButtonText: "確定",
                             cancelButtonText: "取消",
                             type: "warning"
                         }).then((function () {
                             e.isClick3 || (e.isClick3 = !0, e.transferFrom())
-                        })) : this.$message("请填写你要转账的钱包地址")
+                        })) : this.$message("請填寫你要轉賬的錢包地址")
                     }, transferFrom: function () {
                         var e = this;
                         e.multipleSelection.forEach((function (t) {
-                            "战士" == t["角色类型"] ? e.WarriorContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address}) : "盗贼" == t["角色类型"] ? e.RobberContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address}) : "法师" == t["角色类型"] ? e.MageContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address}) : "游侠" == t["角色类型"] && e.youxiaContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address})
+                            "戰士" == t["角色類型"] ? e.WarriorContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address}) : "盜賊" == t["角色類型"] ? e.RobberContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address}) : "法師" == t["角色類型"] ? e.MageContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address}) : "遊俠" == t["角色類型"] && e.youxiaContract.methods.transferFrom(e.address, e.toAddress, t.tokenID).send({from: e.address})
                         })), setTimeout((function () {
                             e.isClick3 = !1
                         }), 2e3)
@@ -822,33 +822,33 @@
                                     case 33:
                                         s.forEach((function (e) {
                                             var t = "";
-                                            if (e.workType === a.LinggongAddress) t = "零工"; else if (e.workType === a.BlacksmithAddress) t = "伐木"; else if (e.workType === a.HunterAddress) t = "酿酒"; else if (e.workType === a.BookmangerAddress) t = "卷轴"; else {
+                                            if (e.workType === a.LinggongAddress) t = "零工"; else if (e.workType === a.BlacksmithAddress) t = "伐木"; else if (e.workType === a.HunterAddress) t = "釀酒"; else if (e.workType === a.BookmangerAddress) t = "卷軸"; else {
                                                 if (e.workType !== a.RangeworkAddress) return;
-                                                t = "打猎"
+                                                t = "打獵"
                                             }
                                             var n = (e.income / Math.pow(10, 18)).toFixed(4), i = {
-                                                "0x22F3E436dF132791140571FC985Eb17Ab1846494": "战士",
-                                                "0xaF9A274c9668d68322B0dcD9043D79Cd1eBd41b3": "盗贼",
-                                                "0xC6dB06fF6e97a6Dc4304f7615CdD392a9cF13F44": "法师",
-                                                "0xF31913a9C8EFE7cE7F08A1c08757C166b572a937": "游侠"
+                                                "0x22F3E436dF132791140571FC985Eb17Ab1846494": "戰士",
+                                                "0xaF9A274c9668d68322B0dcD9043D79Cd1eBd41b3": "盜賊",
+                                                "0xC6dB06fF6e97a6Dc4304f7615CdD392a9cF13F44": "法師",
+                                                "0xF31913a9C8EFE7cE7F08A1c08757C166b572a937": "遊俠"
                                             }, s = {
-                                                "角色类型": i[e.careerAddr.toString()],
+                                                "角色類型": i[e.careerAddr.toString()],
                                                 tokenID: e.tokenId,
-                                                "属性": {
+                                                "屬性": {
                                                     "力量": e.cardInfo[0],
                                                     "敏捷": e.cardInfo[1],
-                                                    "体质": e.cardInfo[2],
+                                                    "體質": e.cardInfo[2],
                                                     "意志": e.cardInfo[3],
                                                     "智力": e.cardInfo[4],
                                                     "精神": e.cardInfo[5],
-                                                    "等级": e.cardInfo[6]
+                                                    "等級": e.cardInfo[6]
                                                 },
-                                                "当前收益": n,
+                                                "當前收益": n,
                                                 workType: t
                                             };
-                                            "零工" == s.workType ? s.isOld = !0 : s.isOld = !1, s.sumAttr = 0, s.sumAttr += parseInt(s["属性"]["力量"]), s.sumAttr += parseInt(s["属性"]["敏捷"]), s.sumAttr += parseInt(s["属性"]["体质"]), s.sumAttr += parseInt(s["属性"]["意志"]), s.sumAttr += parseInt(s["属性"]["智力"]), s.sumAttr += parseInt(s["属性"]["精神"]);
+                                            "零工" == s.workType ? s.isOld = !0 : s.isOld = !1, s.sumAttr = 0, s.sumAttr += parseInt(s["屬性"]["力量"]), s.sumAttr += parseInt(s["屬性"]["敏捷"]), s.sumAttr += parseInt(s["屬性"]["體質"]), s.sumAttr += parseInt(s["屬性"]["意志"]), s.sumAttr += parseInt(s["屬性"]["智力"]), s.sumAttr += parseInt(s["屬性"]["精神"]);
                                             var r = "否";
-                                            "战士" == s["角色类型"] ? s["属性"]["力量"] > 85 && s["属性"]["体质"] > 60 && s["属性"]["等级"] > 1 && (r = "是") : "盗贼" == s["角色类型"] ? s["属性"]["敏捷"] > 85 && s["属性"]["力量"] > 60 && s["属性"]["等级"] > 1 && (r = "是") : "游侠" == s["角色类型"] ? s["属性"]["力量"] > 85 && s["属性"]["敏捷"] > 60 && s["属性"]["等级"] > 1 && (r = "是") : s["属性"]["智力"] > 85 && s["属性"]["精神"] > 60 && s["属性"]["等级"] > 1 && (r = "是"), s.isWork = r, a.sumMoney2 = a.sumMoney2 + parseFloat(s["当前收益"]);
+                                            "戰士" == s["角色類型"] ? s["屬性"]["力量"] > 85 && s["屬性"]["體質"] > 60 && s["屬性"]["等級"] > 1 && (r = "是") : "盜賊" == s["角色類型"] ? s["屬性"]["敏捷"] > 85 && s["屬性"]["力量"] > 60 && s["屬性"]["等級"] > 1 && (r = "是") : "遊俠" == s["角色類型"] ? s["屬性"]["力量"] > 85 && s["屬性"]["敏捷"] > 60 && s["屬性"]["等級"] > 1 && (r = "是") : s["屬性"]["智力"] > 85 && s["屬性"]["精神"] > 60 && s["屬性"]["等級"] > 1 && (r = "是"), s.isWork = r, a.sumMoney2 = a.sumMoney2 + parseFloat(s["當前收益"]);
                                             var u = {
                                                 1: 1,
                                                 2: 2,
@@ -863,7 +863,7 @@
                                                 11: 300,
                                                 12: 500
                                             };
-                                            "战士" == s["角色类型"] ? s["属性"]["力量"] > 85 && s["属性"]["体质"] > 60 && s["属性"]["等级"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["属性"]["力量"] - 85)) * u[s["属性"]["等级"].toString()] : a.sumMoney += .01 * u[s["属性"]["等级"].toString()] : "盗贼" == s["角色类型"] ? s["属性"]["敏捷"] > 85 && s["属性"]["力量"] > 60 && s["属性"]["等级"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["属性"]["敏捷"] - 85)) * u[s["属性"]["等级"].toString()] : a.sumMoney += .01 * u[s["属性"]["等级"].toString()] : "游侠" == s["角色类型"] ? s["属性"]["力量"] > 85 && s["属性"]["敏捷"] > 60 && s["属性"]["等级"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["属性"]["力量"] - 85)) * u[s["属性"]["等级"].toString()] : a.sumMoney += .01 * u[s["属性"]["等级"].toString()] : s["属性"]["智力"] > 85 && s["属性"]["精神"] > 60 && s["属性"]["等级"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["属性"]["智力"] - 85)) * u[s["属性"]["等级"].toString()] : a.sumMoney += .01 * u[s["属性"]["等级"].toString()], a.workHero.push(s)
+                                            "戰士" == s["角色類型"] ? s["屬性"]["力量"] > 85 && s["屬性"]["體質"] > 60 && s["屬性"]["等級"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["屬性"]["力量"] - 85)) * u[s["屬性"]["等級"].toString()] : a.sumMoney += .01 * u[s["屬性"]["等級"].toString()] : "盜賊" == s["角色類型"] ? s["屬性"]["敏捷"] > 85 && s["屬性"]["力量"] > 60 && s["屬性"]["等級"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["屬性"]["敏捷"] - 85)) * u[s["屬性"]["等級"].toString()] : a.sumMoney += .01 * u[s["屬性"]["等級"].toString()] : "遊俠" == s["角色類型"] ? s["屬性"]["力量"] > 85 && s["屬性"]["敏捷"] > 60 && s["屬性"]["等級"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["屬性"]["力量"] - 85)) * u[s["屬性"]["等級"].toString()] : a.sumMoney += .01 * u[s["屬性"]["等級"].toString()] : s["屬性"]["智力"] > 85 && s["屬性"]["精神"] > 60 && s["屬性"]["等級"] >= 2 ? a.sumMoney = a.sumMoney + (.01 + .005 * (s["屬性"]["智力"] - 85)) * u[s["屬性"]["等級"].toString()] : a.sumMoney += .01 * u[s["屬性"]["等級"].toString()], a.workHero.push(s)
                                         })), e.next = 39;
                                         break;
                                     case 36:
@@ -892,27 +892,27 @@
                                     case 5:
                                         a = e.sent, a.forEach((function (e) {
                                             var t = {
-                                                "0x22F3E436dF132791140571FC985Eb17Ab1846494": "战士",
-                                                "0xaF9A274c9668d68322B0dcD9043D79Cd1eBd41b3": "盗贼",
-                                                "0xC6dB06fF6e97a6Dc4304f7615CdD392a9cF13F44": "法师",
-                                                "0xF31913a9C8EFE7cE7F08A1c08757C166b572a937": "游侠"
+                                                "0x22F3E436dF132791140571FC985Eb17Ab1846494": "戰士",
+                                                "0xaF9A274c9668d68322B0dcD9043D79Cd1eBd41b3": "盜賊",
+                                                "0xC6dB06fF6e97a6Dc4304f7615CdD392a9cF13F44": "法師",
+                                                "0xF31913a9C8EFE7cE7F08A1c08757C166b572a937": "遊俠"
                                             }, a = {
-                                                "角色类型": t[e.careerAddr.toString()],
+                                                "角色類型": t[e.careerAddr.toString()],
                                                 tokenID: e.tokenId,
-                                                "属性": {
+                                                "屬性": {
                                                     "力量": e.cardInfo[0],
                                                     "敏捷": e.cardInfo[1],
-                                                    "体质": e.cardInfo[2],
+                                                    "體質": e.cardInfo[2],
                                                     "意志": e.cardInfo[3],
                                                     "智力": e.cardInfo[4],
                                                     "精神": e.cardInfo[5],
-                                                    "等级": e.cardInfo[6]
+                                                    "等級": e.cardInfo[6]
                                                 },
                                                 sumAttr: 0
                                             };
-                                            a.sumAttr += parseInt(a["属性"]["力量"]), a.sumAttr += parseInt(a["属性"]["敏捷"]), a.sumAttr += parseInt(a["属性"]["体质"]), a.sumAttr += parseInt(a["属性"]["意志"]), a.sumAttr += parseInt(a["属性"]["智力"]), a.sumAttr += parseInt(a["属性"]["精神"]);
+                                            a.sumAttr += parseInt(a["屬性"]["力量"]), a.sumAttr += parseInt(a["屬性"]["敏捷"]), a.sumAttr += parseInt(a["屬性"]["體質"]), a.sumAttr += parseInt(a["屬性"]["意志"]), a.sumAttr += parseInt(a["屬性"]["智力"]), a.sumAttr += parseInt(a["屬性"]["精神"]);
                                             var i = "否";
-                                            "战士" == a["角色类型"] ? a["属性"]["力量"] > 85 && a["属性"]["体质"] > 60 && (i = "是") : "盗贼" == a["角色类型"] ? a["属性"]["敏捷"] > 85 && a["属性"]["力量"] > 60 && (i = "是") : "游侠" == a["角色类型"] ? a["属性"]["力量"] > 85 && a["属性"]["敏捷"] > 60 && (i = "是") : a["属性"]["智力"] > 85 && a["属性"]["精神"] > 60 && (i = "是"), a.isWork = i, n.myHero.push(a)
+                                            "戰士" == a["角色類型"] ? a["屬性"]["力量"] > 85 && a["屬性"]["體質"] > 60 && (i = "是") : "盜賊" == a["角色類型"] ? a["屬性"]["敏捷"] > 85 && a["屬性"]["力量"] > 60 && (i = "是") : "遊俠" == a["角色類型"] ? a["屬性"]["力量"] > 85 && a["屬性"]["敏捷"] > 60 && (i = "是") : a["屬性"]["智力"] > 85 && a["屬性"]["精神"] > 60 && (i = "是"), a.isWork = i, n.myHero.push(a)
                                         })), e.next = 12;
                                         break;
                                     case 9:
@@ -972,7 +972,7 @@
                                                         }
                                                         return e.next = 3, n.web3.currentProvider.close();
                                                     case 3:
-                                                        n.address = "", console.log("关闭");
+                                                        n.address = "", console.log("關閉");
                                                     case 5:
                                                     case"end":
                                                         return e.stop()
